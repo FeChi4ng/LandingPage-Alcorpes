@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../images/Flores.png);
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div#title > h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 200px;
+}
+
+ul{
+    margin: 50px;
+}
+
+a {
+    color:black;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: rgb(255, 92, 119);
+    transition: .5s;
+}
+
+#inicio-btn{
+    border: 2px solid rgb(255, 37, 74);
+    padding: 10px;
+    border-radius: 15px;
+}
+#inicio-btn:hover {
+    background-color:rgb(255, 92, 119);
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 97vw;
+    
+}
+
+h2{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fa5873;
+}
+
+p{
+    margin-top: 70px;
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    display: inline-block;
+    width: 300px;
+    flex-direction: row;
+    border-radius: 20px;
+    margin: 10px;
+}
